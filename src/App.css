@@ -1,0 +1,39 @@
+#app {
+    display: flex;
+  }
+  
+  .editor-section, .preview-section {
+   border: red solid 1px;
+  }
+
+  
+  #editor {
+   width: 100%;
+   height: 60vh;
+   font-size: 18px;
+   background-color: #2f2f2f;
+   color: white;
+   padding: 10px;
+   overflow: auto;
+   border-radius: 10px;
+   resize: none;
+  }
+  #preview {
+    width: 100%;
+    height: 80vh;
+    font-size: 18px;
+    background-color: #2f2f2f;
+    color: white;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 10px;
+    resize: none;
+   }
+   img{
+    max-width: 100%;
+   }
+  
+  header{
+    background: green;
+    
+  }
